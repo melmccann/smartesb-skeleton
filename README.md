@@ -1,5 +1,6 @@
 Smartbox Integrations Framework Skeleton
 ========
+[![Build Status](https://travis-ci.com/smartboxgroup/smartesb-skeleton.svg?branch=master)](https://travis-ci.com/smartboxgroup/smartesb-skeleton)  [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smartboxgroup/smartbox-skeleton/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smartboxgroup/smartbox-skeleton/?branch=master) [![Coverage Status](https://coveralls.io/repos/github/smartboxgroup/smartbox-skeleton/badge.svg?branch=master)](https://coveralls.io/github/smartboxgroup/smartbox-skeleton?branch=master)
 
 A Symfony project to get you up and running quickly with the Smartbox Enterprise Service Bus.
 This project will demonstrate a bare bones setup of a the Smartbox Open Source bundles.
@@ -7,21 +8,20 @@ This project will demonstrate a bare bones setup of a the Smartbox Open Source b
 
 ### Current status
 
-[![Build Status](https://travis-ci.org/melmccann/smartbox-skeleton.svg?branch=master)](https://travis-ci.org/melmccann/smartbox-skeleton)
+This is the initial version of the skeleton bundle and will require more documentation, code cleanups, more tests and examples of functionality.
 
-This is the initial version of the skeleton bundle and will require more documentation, code cleanups, more tests and examples of functionality. 
-
-Please note that Travis-ci, code coverage etc. will be added in time.
+This documentation (and the best place to get started) can be found [here on our GitHub Pages](https://smartboxgroup.github.io/smartesb-skeleton/). 
 
 For further information on the Smartbox Integration Framework Bundle please read the [setup guide](https://raw.githubusercontent.com/smartboxgroup/integration-framework-bundle/master/README.md). 
 
-You can access the Smartbox open source bundle via their [GitHub](https://github.com/smartboxgroup/) or using [Packagist.org](https://packagist.org/packages/smartbox/).
-
+You can access the Smartbox open source bundle via our [GitHub](https://github.com/smartboxgroup/) or using [Packagist.org](https://packagist.org/packages/smartbox/).
 
 ### Getting started:
-Please note that all the urls below are using ``` app_dev.php ```, this is simply for testing purposes.
-The remote system is mocked by the bundle ``` SmartboxSkeletonRemoteDemoBundle```.
-The main code for the Skeleton project is in the ``` SmartboxSkeletonBundle```.
+The Skeleton Bundle was built to demonstrate the features of the SmartESB, and as such some things are not as they would be in the real world. 
+For example, instead of connecting to an actual remote target system to demonstrate a JSON producer, we connect to a Controller included in this Bundle.
+The remote system is mocked by the bundle `SmartboxSkeletonRemoteDemoBundle`.
+The main code for the Skeleton project is in the `SmartboxSkeletonBundle`.
+This serves the propose of allowing us to demonstrate these features without depending on external systems.
 
 Descriptions will be added to code blocks in time. Please be patient... Or feel free to contribute :D
 

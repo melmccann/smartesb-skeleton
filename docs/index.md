@@ -5,11 +5,10 @@ title: Smartbox Integrations Framework Skeleton
 
 Smartbox Integrations Framework Skeleton
 ========
-[![Build Status](https://travis-ci.org/smartboxgroup/smartbox-skeleton.svg?branch=master)](https://travis-ci.org/smartboxgroup/smartbox-skeleton) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smartboxgroup/smartbox-skeleton/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smartboxgroup/smartbox-skeleton/?branch=master) [![Coverage Status](https://coveralls.io/repos/github/smartboxgroup/smartbox-skeleton/badge.svg?branch=master)](https://coveralls.io/github/smartboxgroup/smartbox-skeleton?branch=master)
+[![Build Status](https://travis-ci.com/smartboxgroup/smartesb-skeleton.svg?branch=master)](https://travis-ci.com/smartboxgroup/smartesb-skeleton)  [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smartboxgroup/smartbox-skeleton/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smartboxgroup/smartbox-skeleton/?branch=master) [![Coverage Status](https://coveralls.io/repos/github/smartboxgroup/smartbox-skeleton/badge.svg?branch=master)](https://coveralls.io/github/smartboxgroup/smartbox-skeleton?branch=master)
 
 A Symfony project to get you up and running quickly with the Smartbox Enterprise Service Bus.
 This project will demonstrate a bare bones setup of a the Smartbox Open Source bundles.
-
 
 ### Current status
 
@@ -18,8 +17,6 @@ This is the initial version of the skeleton bundle and will require more documen
 This documentation (and the best place to get started) can be found [here on our GitHub Pages](https://smartboxgroup.github.io/smartesb-skeleton/). 
 
 For further information on the Smartbox Integration Framework Bundle please read the [setup guide](https://raw.githubusercontent.com/smartboxgroup/integration-framework-bundle/master/README.md). 
-
-You can access the Smartbox open source bundle via our [GitHub](https://github.com/smartboxgroup/) or using [Packagist.org](https://packagist.org/packages/smartbox/).
 
 You can access the Smartbox open source bundle via our [GitHub](https://github.com/smartboxgroup/) or using [Packagist.org](https://packagist.org/packages/smartbox/).
 
@@ -70,4 +67,4 @@ Try to keep to the following guidelines.
 
 ## Licence
 
-This bundle is distributed under [MIT license](license). © Mel McCann 2018
+This bundle is distributed under [MIT license](license). © 2019 Smartbox Group LTD.
